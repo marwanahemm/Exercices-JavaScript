@@ -1,2 +1,2 @@
 let name = prompt("What's your name ?");
-console.log("Bonjour, " + prenom + " !");
+console.log("Hello, " + name + " !");
