@@ -1,0 +1,14 @@
+// Function that counts characters
+function countCharacters(text) {
+  return text.length;
+}
+
+// Usage examples
+console.log(countCharacters("Hello"));  // Displays: 5
+console.log(countCharacters("World"));    // Displays: 5
+console.log(countCharacters("JavaScript")); // Displays: 10
+
+// Test with user input
+let sentence = prompt("Enter a sentence:");
+let numberOfCharacters = countCharacters(sentence);
+console.log("Your sentence contains " + numberOfCharacters + " characters.");
